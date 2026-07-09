@@ -1,76 +1,84 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Kyle Bartlett — US, remote-only, AI-leadership search.
+     NOTE: the repo's built-in scraper CLI tools target Danish portals (jobindex.dk etc.),
+     which do not apply here. Use LinkedIn + Google site-searches + US boards below. -->
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary (US / remote):
+- **linkedin.com/jobs** — filter: Remote, United States
+- **wellfound.com** (AngelList Talent) — startups / founding-AI roles
+- **google.com search** — `site:` filters + "remote" for company career pages
+- **ycombinator.com/jobs** (Work at a Startup) — seed–Series B AI roles
+- **indeed.com** — broad US coverage, filter Remote
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Secondary:
+- Direct Google `site:boards.greenhouse.io` / `site:jobs.lever.co` / `site:job-boards.ashbyhq.com` searches for AI-forward companies.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Every query is **remote-first**. Pair titles with: `remote`, `AI strategy`, `adoption`, `enablement`, `change management`, `automation`, `agentic`, `LLM`.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+### Priority 1: AI Enablement & Adoption Leadership (exact wheelhouse)
 
 ```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "AI Enablement Lead" remote
+site:linkedin.com/jobs "Director of AI Adoption" remote
+site:linkedin.com/jobs ("AI Enablement" OR "AI Adoption") (Lead OR Director OR Manager) remote
+site:boards.greenhouse.io "AI enablement" remote
+"AI adoption lead" OR "AI enablement manager" remote change management -senior director
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+### Priority 2: Head of AI / AI Lead / AI Program (own the function)
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Head of AI" remote (startup OR "Series A" OR "Series B")
+site:linkedin.com/jobs "AI Lead" remote
+site:linkedin.com/jobs ("AI Program Manager" OR "AI Platform Manager") remote
+site:jobs.lever.co ("Head of AI" OR "Founding AI") remote
+"first AI hire" OR "founding AI" OR "build the AI function" remote
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+### Priority 3: Applied / Agentic AI Build + Strategy (hands-on lead)
 
 ```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "Applied AI Lead" remote
+site:linkedin.com/jobs ("Agentic" OR "LLM" OR "multi-agent") (Lead OR Architect OR "Solutions") remote
+site:linkedin.com/jobs "AI Solutions Lead" remote consulting
+site:job-boards.ashbyhq.com ("Applied AI" OR agentic) remote
 ```
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+### Priority 4: Adjacent — Automation / Innovation / Emerging Tech (wider net)
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Director of Automation" remote
+site:linkedin.com/jobs ("Emerging Technology Lead" OR "Innovation Manager") AI remote
+site:linkedin.com/jobs "AI Transformation" (Lead OR Director OR Consultant) remote
+site:linkedin.com/jobs "AI Product Manager" remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- **Remote (US) — required.** This is a hard filter, not a preference.
+- Reject: on-site, hybrid, or "remote but must be in [city] X days/week."
+- Reject: roles requiring relocation.
+- International-remote is fine only if fully remote and US-timezone-friendly.
+
+## Compensation Filter
+
+- Target $250k+ total comp ($275-350k preferred). Flag anything materially below as low-priority.
+- If comp isn't listed, include but note "comp unknown — verify before applying."
+
+## Seniority Filter
+
+- **Green:** "lead / build / grow a small team," "player-coach," "first AI hire," no hard "X years managing PMs/managers."
+- **Reach (flag):** "8-10 years formally managing managers/PMs," "manager of managers," VP/Senior Director requiring long management tenure.
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
+Only include jobs posted within the last 14 days, or with an open application deadline. If a posting date can't be determined, include it but flag "date unknown".
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If Kyle specifies a focus (e.g. "/scrape enablement" or "/scrape founding"), pull that category's queries plus 2-3 custom queries for the focus.

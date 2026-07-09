@@ -10,30 +10,44 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Drafted from Kyle's actual experience. Sharpen the numbers/phrasing before an interview. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Org-wide AI adoption program (AI enablement + change management)
+**S:** Anker's US org had scattered, individual AI experiments and no standard for using AI safely across a global US-China organization.
+**T:** As US AI Lead, own AI adoption end to end — strategy, standards, enablement, and impact tracking.
+**A:** Ran readiness assessments across business units, set tooling/governance standards, and did hands-on 1:1 and small-group training that turned AI from experiments into daily practice. Tracked time saved, quality gains, and capability gaps.
+**R:** Drove adoption to **#1 of ~200 employees** company-wide and moved AI from isolated pilots to org-wide standard practice.
+**Use for:** "Tell me about driving adoption/change," "leading without authority," "measuring AI impact."
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Multi-agent AI platform (agentic AI + hands-on build)
+**S:** Repeated one-off automations across teams were unsupported and unmaintainable.
+**T:** Consolidate them into supported, reusable systems.
+**A:** Architected a multi-agent AI platform running 20+ autonomous jobs plus 10+ internal AI applications; built a production LLM chatbot with weekly fine-tuning, RAG knowledge updates, prompt management, and output evaluation.
+**R:** 10+ apps adopted across teams; one-off scripts became a governed, reusable platform.
+**Use for:** "Most technical project," "architecting AI systems," "strategy + hands-on build."
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. 300+ automations in 19 months (automation + operations impact)
+**S:** As sole US ops member for Walmart/Costco/Telecom demand planning (~50 SKUs, >96.5% in-stock target), weekly reporting and forecasting were manual and coordinated across a 14-hour timezone gap with China HQ.
+**T:** Cut manual work and prevent data-quality errors from propagating.
+**A:** Built 300+ automation projects — a 50+ script Google Apps Script platform (email ingestion -> validation -> exec dashboards), an AI demand-forecasting model, and an automated Sunday-ingest -> Tuesday-report pipeline with a validation layer catching formatting/column/quality issues.
+**R:** Cut hours of weekly manual work to minutes and caught errors pre-propagation.
+**Use for:** "Biggest efficiency win," "working across time zones," "data quality."
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Led a team of 10 through a merger (formal people leadership)
+**S:** At Sears, promoted to lead inventory planning across $120M in receipts and $52M in sales.
+**T:** Lead a team of 10 and run an 18-month departmental merger.
+**A:** Trained 10+ analysts, consolidated 4 roles into 1, and drove the merger to completion while holding 99.95% accuracy.
+**R:** Delivered the merger at 99.95% accuracy; demonstrates real people-leadership, not just influence.
+**Use for:** "Managing a team," "leading through change," "the leadership gap" (proof point).
+
+### 5. Founding Bartlett Labs (founder DNA + full-stack delivery)
+**S:** SMBs still running on spreadsheets and manual processes.
+**T:** Build and run an AI automation firm end to end.
+**A:** Delivered 9+ production web apps on self-hosted infra (Forgejo/Coolify/Vultr) with CI/CD; built a 7-agent orchestration framework running 20+ cron jobs that shipped 226+ features autonomously — full-stack across Next.js/React/TypeScript/Python and Claude/Anthropic APIs.
+**R:** A real product portfolio and repeatable AI-delivery playbook.
+**Use for:** "Why the founder/first-AI-hire fit," "end-to-end ownership," "hands-on depth."
+
+<!-- Add more as needed. #4 is the key answer to the "have you formally managed people?" gap. -->
 
 ## Common Tough Questions
 

@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** AI enablement & adoption, change management, agentic AI / multi-agent orchestration, LLM APIs (Claude/OpenAI), RAG, prompt/output evaluation, AI governance & impact tracking, Python/TypeScript full-stack build (Next.js/React), automation/ETL, demand forecasting & S&OP, executive stakeholder comms.
+**Moderate match areas:** formal team leadership (led a team of 10; mostly leads by influence), MLOps/model training at scale, SQL/data engineering depth, cloud infra (AWS Bedrock, self-hosted Coolify/Vultr).
+**Weak match areas:** deep ML research / model architecture, regulated-industry domain gates (healthcare/fintech compliance as a core requirement), multi-year management of managers/PMs.
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** enterprise AI adoption/enablement lead, AI automation, agentic app delivery, supply chain / demand planning (Apple, Anker), operations transformation.
+**Moderate:** AI program/platform management, AI solutions/practice lead (consulting via Bartlett Labs), founding/first-AI-hire roles.
+**Entry-level / reach:** VP/Senior Director roles requiring long formal management tenure, pure ML-research roles, deeply regulated-domain roles.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,31 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a **remote** AI-leadership role at $250k+ ($275-350k preferred): Head of AI, AI Lead, Director of AI Enablement/Adoption, AI Program/Platform Lead, Founding AI Hire, or AI Solutions/Practice Lead.
+- Formalize team leadership — step from leading AI by influence (plus a prior team of 10) into a role with a real team.
+- Own AI strategy end to end while staying hands-on with the build.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether Kyle *can* do the tasks, but whether they will *energize* him.
+- Tasks that energize: standing up an AI function from scratch, hands-on agentic/LLM building, driving adoption and enablement, high-autonomy ownership, measurable impact.
+- Tasks that drain: heavy bureaucracy, approval-gated processes, maintenance-over-build, pure people-management with no build, low-autonomy roles.
+- Non-task factors: remote-first culture, degree of autonomy, AI-forward leadership, no absent/undermining management.
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Security**: employed and building his own companies (Bartlett Labs, Bart's Tees); this search is a high-value hedge, not a desperation move — bar is high.
+- **Flexibility**: **remote only, non-negotiable.** No relocation, no hybrid/in-office mandate.
+- **Compensation floor**: $250k+; anything materially below is an auto-skip unless strategically exceptional.
+
+### Green Flags (apply with confidence)
+- "Lead, build, or grow a small team" / "player-coach" with no hard "X years managing managers/PMs" minimum.
+- Requirements framed around AI, operations, or leadership broadly — not "8-10 years in formal Product Management."
+- Startups / scale-ups / brand-new AI functions: "first AI hire," "build the team," "stand up the function."
+- Emphasis on hands-on AI **plus** strategy **plus** enablement.
+
+### Red Flags (likely auto-screens; treat as reaches)
+- "X+ years formally managing PMs / managers / a team of senior ICs."
+- "Manager of managers," large existing org to inherit, VP/Senior Director requiring long management tenure.
+- Hard domain gates where deep regulated-industry expertise is the core requirement.
+- On-site / hybrid required, or comp below the $250k floor.
 
 ### 6. Salary Benchmark (Optional)
 

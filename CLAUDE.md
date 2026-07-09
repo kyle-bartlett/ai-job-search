@@ -13,68 +13,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
+<!-- Full detail in .claude/skills/job-application-assistant/01-candidate-profile.md and 02-behavioral-profile.md -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Kyle Bartlett (goes by "Bart")
+- **Location:** Crosby, TX (Greater Houston) — **remote only, no relocation, no hybrid**
+- **Contact:** (765) 427-2405 · Kyle@BartlettLabs.io · linkedin.com/in/kyle-bartlett · portfolio.BartlettLabs.io
+- **Languages:** English (native)
+- **Status:** Employed — US AI Lead at Anker Innovations. Pursuing a remote AI-leadership role (a high-bar hedge, not a desperation move).
+- **LinkedIn headline:** "AI Lead | Building & Leading AI Functions"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BS, Engineering & Industrial Management** (2008-2013, GPA 3.5) - Purdue University
+  - Minors: Aeronautical Engineering, Science, Math, Technology
+- **Graduate business coursework** (2016-2018) - DePaul University — 18 credits toward MBA (not completed; confirm before claiming a full MBA)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **US AI Lead** (June 2026 - Present) - **Anker Innovations** (Remote, TX)
+  - Own enterprise AI adoption end to end; drove usage to **#1 of ~200 employees** company-wide
+  - Architected a multi-agent AI platform (20+ jobs) + 10+ internal AI apps; runs a production LLM chatbot (RAG, fine-tuning, eval)
+- **Demand Planner & AI Automation Manager** (Aug 2024 - June 2026) - **Anker Innovations** (Houston, TX)
+  - Walmart/Costco/Telecom demand forecasting >96.5% in-stock; **300+ automations in 19 months**
+- **Founder & AI Automation Consultant** (Jan 2025 - Present) - **Bartlett Labs** (Houston, TX)
+  - 7-agent orchestration framework, 226+ features shipped autonomously; 9+ live apps on self-hosted infra
+- **Demand Planning Manager** (Nov 2019 - Aug 2024) - **Apple** (Austin, TX)
+  - iPad supply chain; **100% fill rate on 3 launches**; 48-week forecasts to C-Suite
+- **Team Lead / Inventory Planning Manager** (Jan 2015 - Apr 2018) - **Sears** (Hoffman Estates, IL)
+  - Led a **team of 10**, $120M receipts / $52M sales at 99.95% accuracy; ran an 18-month merger
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** AI enablement & adoption, change management, agentic AI / multi-agent orchestration, LLM APIs (Claude/Anthropic, OpenAI), RAG, prompt/output eval, AI governance
+- **Secondary:** Python, TypeScript, Next.js, React, SQL, Google Apps Script, Docker, CI/CD, self-hosted infra (Coolify/Vultr), AWS Bedrock
+- **Domain:** demand forecasting, S&OP, supply-chain operations, executive reporting
+- **Software:** Claude Code, SAP, Tableau, Google Workspace
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Microsoft Excel Masters Certification** (Microsoft)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **#1 of ~200 employees** - Anker company-wide AI adoption leaderboard
+- Former President - BNI Houston Chapter
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Builder-operator** - turns manual, spreadsheet-heavy work into automated systems
+- **Leads by influence + player-coach** - front line to C-suite; also led a team of 10
+- **Strengths:** rare combo of AI strategy + hands-on build; fast self-directed learner; high ownership
+- **Growth areas:** no multi-year formal management of managers/PMs (frame as stepping into formal leadership); tendency to overbuild
+- **Thrives in:** remote, high-autonomy, AI-forward orgs; greenfield "stand up the function" roles
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Standing up an AI function from scratch; hands-on agentic/LLM building
+- Driving adoption/enablement with measurable impact and real autonomy
 
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+### Target Roles & Sectors
+- **Roles:** Head of AI, AI Lead, Director of AI Enablement/Adoption, AI Program/Platform Lead, Founding AI Hire, AI Solutions/Practice Lead
+- **Sectors:** AI-forward startups/scale-ups (seed-Series B), consultancies/SIs, AI-first product companies
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Not remote (on-site or hybrid mandate) — hard no
+- Total comp below $250k ($275-350k preferred)
+- Reqs gated on multi-year formal management of PMs/managers (treat as reaches)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

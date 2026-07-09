@@ -1,18 +1,16 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Kyle Bartlett
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,letterpaper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,29 +22,29 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Kyle Bartlett - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Kyle}{Bartlett}
+\address{Crosby, TX (Greater Houston)}{}{}
+\phone[mobile]{+1 765 427 2405}
+\email{Kyle@BartlettLabs.io}
+\extrainfo{\href{https://linkedin.com/in/kyle-bartlett}{LinkedIn}, \href{https://portfolio.bartlettlabs.io}{Portfolio}, \href{https://github.com/kyle-bartlett}{GitHub}}
 
 \begin{document}
 
 \makecvtitle
 
 % ============================================================
-%     PROFILE STATEMENT
+%     PROFILE STATEMENT  (tailor per role)
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{AI enablement leader who turns enterprise AI from pilot to platform. As US AI Lead at Anker I run AI adoption end to end -- assessing highest-impact use cases, building hands-on solutions on the modern LLM stack (Claude, OpenAI, agentic workflows), training people one-on-one, and tracking time saved, quality gains, and capability gaps -- and drove usage to \#1 of $\sim$200 employees company-wide. 15+ years bridging operations and applied AI (Apple, Anker), including leading a team of 10 and standing up an org-wide AI program. Founder of Bartlett Labs, shipping agentic AI applications on Claude/Anthropic APIs and Claude Code. I influence from the front line to the C-suite and make change stick.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +54,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{AI Enablement \& Adoption}: readiness assessments, adoption \& change management, one-on-one and team training, onboarding, internal community building, impact tracking.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Agentic AI \& LLM Build}: agentic workflows, multi-agent orchestration, LLM APIs (Claude/Anthropic, OpenAI), RAG, vector DBs, prompt management \& output evaluation, Claude Code.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Governance \& Impact}: AI governance, usage standards, data-quality guardrails, adoption \& impact reporting to executives.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Engineering}: Python, TypeScript/JS, Next.js, React, Tailwind, SQL, Google Apps Script, Docker, Git, CI/CD, self-hosted infra (Coolify, Vultr), Vercel, AWS Bedrock.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Operations \& Stakeholders}: demand forecasting, S\&OP, SAP, Tableau, dashboards \& metrics, executive communication.
 
 \end{itemize}
 
@@ -76,35 +74,49 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2026--Present}{US AI Lead}{Anker Innovations}{Remote, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Own enterprise AI adoption across Anker's US org: readiness assessments, strategy, standards, and governance for safe AI use across a global US-China organization.
+    \item Drove AI adoption to \textbf{\#1 of $\sim$200 employees} company-wide through hands-on one-on-one and small-group training.
+    \item Architected a multi-agent AI platform (20+ autonomous jobs) and 10+ internal AI applications adopted across teams.
+    \item Build, fine-tune, and evaluate a production LLM chatbot (weekly fine-tuning, RAG updates, prompt management, output evaluation).
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2024--2026}{Demand Planner \& AI Automation Manager}{Anker Innovations}{Houston, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Managed demand forecasting for Walmart ($\sim$50 SKUs), Costco, and Telecom accounts at >96.5\% in-stock as sole US ops member across a 14-hour timezone gap with China HQ.
+    \item Built \textbf{300+ automation projects in 19 months}, incl. a 50+ script Google Apps Script platform (email ingestion -> validation -> exec dashboards) and an AI demand-forecasting model.
+    \item Automated weekly executive reporting (Sunday ingest -> Tuesday reports), cutting hours to minutes with a data-validation layer catching errors pre-propagation.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2025--Present}{Founder \& AI Automation Consultant}{Bartlett Labs}{Houston, TX}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Founded an AI automation consulting firm delivering production AI applications to SMBs, from discovery through deployment, training, and support.
+    \item Built a 7-agent orchestration framework running 20+ autonomous cron jobs that shipped 226+ features; deployed 9+ live web apps on self-hosted infra with CI/CD.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{2019--2024}{Demand Planning Manager}{Apple, Inc.}{Austin, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led iPad supply chain across all retail stores and carriers; \textbf{100\% fill rate on 3 major product launches}.
+    \item Presented 48-week rolling forecasts to C-Suite; managed 70+ vendor and internal relationships; mentored 5 contract hires.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{2015--2018}{Team Lead / Inventory Planning Manager}{Sears}{Hoffman Estates, IL}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led a \textbf{team of 10} across \$120M receipts and \$52M sales at 99.95\% accuracy; ran an 18-month merger, trained 10+ analysts, consolidated 4 roles into 1.
 \end{itemize}}}
 
 \end{itemize}
+
+% Earlier: Supply \& Demand Planner, Belk (2018--2019); Outside Sales, Spartan Energy (2019).
 
 % ============================================================
 %     EDUCATION
@@ -114,46 +126,38 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2008--2013}{BS, Engineering \& Industrial Management (GPA 3.5)}{Purdue University}{West Lafayette, IN}{}{\vspace{1pt}
+Minors: Aeronautical Engineering, Science, Math, Technology.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2016--2018}{Graduate business coursework (18 credits toward MBA)}{DePaul University}{Chicago, IL}{}{\vspace{1pt}
+Business Administration, Management \& Operations.
 }}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     CERTIFICATIONS & LANGUAGES
 % ============================================================
 
-\section{Languages}
+\section{Certifications \& Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Microsoft Excel Masters Certification.
+\item English (native).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{\#1 of $\sim$200 employees} -- Anker company-wide AI adoption leaderboard.}
+\item{Former President -- BNI Houston Chapter.}
 \end{itemize}
 
 % ============================================================
